@@ -1,0 +1,41 @@
+.footer {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._4_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+._4_block {
+  width: 25%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container {
+  display: inline;
+}
+
+.div-block {
+  height: auto;
+}
+
+.slider {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #fff;
+}
