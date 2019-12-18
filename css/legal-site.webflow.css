@@ -21,6 +21,7 @@
 
 .footer_section {
   margin-top: 0px;
+  padding-top: 0px;
 }
 
 ._4_block_row {
@@ -241,6 +242,7 @@
   position: static;
   display: block;
   padding-left: 0px;
+  float: none;
   text-align: center;
 }
 
@@ -301,6 +303,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
+  margin-bottom: 0px;
   margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -374,7 +377,7 @@
   width: 29.85%;
   margin-right: 25px;
   margin-left: 25px;
-  padding-left: 0px;
+  padding: 15px;
   border: 1px none #000;
   background-color: #f9f9f9;
 }
@@ -479,4 +482,44 @@
   width: 7%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.nav-link {
+  margin-right: 45px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+.nav-link-2 {
+  margin-right: 45px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+.nav-link-3 {
+  margin-right: 45px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+.nav-link-4 {
+  margin-right: 45px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+.div-block-2 {
+  width: 70%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph-9 {
+  margin-top: 115px;
+  padding-top: 0px;
+}
+
+.heading-14 {
+  text-align: center;
 }
