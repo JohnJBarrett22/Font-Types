@@ -11,9 +11,16 @@
 }
 
 .footer {
-  width: 90%;
+  width: 100%;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer_section {
+  margin-top: 0px;
 }
 
 ._4_block_row {
@@ -21,6 +28,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -58,10 +67,11 @@
 }
 
 .slider {
-  height: 100vh;
+  height: 90vh;
 }
 
 .navbar {
+  max-height: none;
   background-color: #fff;
 }
 
@@ -77,8 +87,8 @@
   list-style-type: none;
 }
 
-.c2a_section {
-  background-color: #bca38d;
+.c2a_2_section {
+  background-color: transparent;
 }
 
 .heading {
@@ -92,12 +102,12 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  color: #fff;
 }
 
 .about {
   width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 50px auto;
 }
 
 .heading-2 {
@@ -197,6 +207,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -205,6 +216,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  color: #fff;
 }
 
 .image {
@@ -222,7 +234,10 @@
 }
 
 .nav-menu {
-  position: relative;
+  position: static;
+  display: block;
+  padding-left: 0px;
+  text-align: center;
 }
 
 .image-3 {
@@ -291,4 +306,173 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.c2a_1_section {
+  background-color: transparent;
+}
+
+.c2a_1 {
+  height: 350px;
+  padding-top: 100px;
+  background-color: transparent;
+  background-image: url('../images/bookshelves.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.services {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.c2a_2 {
+  height: 350px;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  background-image: url('../images/bookshelves.jpg');
+  background-position: 0% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph-5 {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+._3_block_row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+._3_block {
+  display: inline-block;
+  width: 29.85%;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-left: 0px;
+  border: 1px none #000;
+  background-color: #f9f9f9;
+}
+
+.heading-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 25px;
+  margin-left: 25px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-6 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph-6 {
+  text-align: center;
+}
+
+.paragraph-7 {
+  text-align: center;
+}
+
+.paragraph-8 {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-2 {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-3 {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-13 {
+  text-align: center;
+}
+
+.recommendation {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button-4 {
+  display: block;
+  width: 7%;
+  margin-right: auto;
+  margin-left: auto;
 }
