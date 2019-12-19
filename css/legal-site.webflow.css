@@ -12,10 +12,9 @@
 
 .footer {
   width: 100%;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0px auto;
   padding-top: 25px;
+  padding-bottom: 5px;
   background-color: #000;
   color: #fff;
 }
@@ -32,6 +31,7 @@
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -302,6 +302,10 @@
   grid-template-rows: auto;
 }
 
+.legal_block {
+  padding-bottom: 0px;
+}
+
 .heading-8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -336,7 +340,7 @@
   background-attachment: fixed;
 }
 
-.services {
+.practice_areas {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -539,4 +543,31 @@
   margin: 5px auto;
   border: 1px solid #e4c960;
   text-align: left;
+}
+
+._2_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._2_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding: 15px;
+}
+
+.form-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.submit-button {
+  float: none;
 }
