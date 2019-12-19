@@ -15,6 +15,7 @@
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 25px;
   background-color: #000;
   color: #fff;
 }
@@ -72,6 +73,9 @@
 }
 
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
   max-height: none;
   background-color: #fff;
 }
@@ -213,6 +217,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  margin-bottom: 5px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -305,6 +310,7 @@
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -522,4 +528,15 @@
 
 .heading-14 {
   text-align: center;
+}
+
+.footer_link {
+  color: #fff;
+}
+
+.hr_block {
+  width: 25%;
+  margin: 5px auto;
+  border: 1px solid #e4c960;
+  text-align: left;
 }
