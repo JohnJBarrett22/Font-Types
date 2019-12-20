@@ -79,7 +79,8 @@
 .navbar {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 2;
+  top: 0px;
+  z-index: 999;
   height: auto;
   max-height: none;
   background-color: #fff;
@@ -249,7 +250,9 @@
 }
 
 .nav-menu {
-  position: static;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
   display: block;
   padding-left: 0px;
   float: none;
@@ -338,7 +341,7 @@
   height: 350px;
   padding-top: 100px;
   background-color: transparent;
-  background-image: url('../images/bookshelves.jpg');
+  background-image: url('../images/pillars.jpg');
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -355,8 +358,7 @@
   padding-top: 100px;
   padding-bottom: 0px;
   background-color: transparent;
-  background-image: url('../images/bookshelves.jpg');
-  background-position: 0% 0%;
+  background-image: url('../images/gamble.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -655,6 +657,7 @@
 
 .header {
   height: auto;
+  background-color: #f9f9f9;
 }
 
 ._3_block_card {
@@ -681,6 +684,8 @@
 }
 
 .container-3 {
+  position: static;
+  top: 0px;
   display: inline;
 }
 
@@ -698,6 +703,11 @@
 .div-block-4 {
   display: inline-block;
   width: 30%;
+}
+
+.call_link {
+  color: #000;
+  text-decoration: none;
 }
 
 @font-face {
