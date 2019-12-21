@@ -858,6 +858,7 @@
 }
 
 .image-9 {
+  display: block;
   width: 400px;
   max-width: none;
   margin-right: auto;
@@ -867,6 +868,22 @@
 
 .heading-18 {
   text-align: center;
+}
+
+.link {
+  color: #fff;
+}
+
+.heading-19 {
+  text-align: center;
+}
+
+.button-2-copy {
+  display: block;
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e4c960;
 }
 
 @font-face {
