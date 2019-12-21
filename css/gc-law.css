@@ -102,7 +102,7 @@
   background-color: transparent;
 }
 
-.heading {
+.c2a_header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -562,6 +562,7 @@
 
 .nav-link-2.w--current {
   color: #e4c960;
+  text-decoration: underline;
 }
 
 .nav-link-3 {
@@ -572,6 +573,7 @@
 
 .nav-link-3.w--current {
   color: #e4c960;
+  text-decoration: underline;
 }
 
 .nav-link-4 {
@@ -582,6 +584,7 @@
 
 .nav-link-4.w--current {
   color: #e4c960;
+  text-decoration: underline;
 }
 
 .div-block-2 {
@@ -884,6 +887,11 @@
   margin-right: auto;
   margin-left: auto;
   background-color: #e4c960;
+}
+
+.heading-20 {
+  display: block;
+  text-align: center;
 }
 
 @font-face {
