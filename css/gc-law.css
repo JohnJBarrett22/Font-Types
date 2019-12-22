@@ -440,6 +440,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 9px;
   margin-right: 25px;
   margin-left: 25px;
   -webkit-box-pack: center;
@@ -457,6 +458,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -467,11 +469,12 @@
   align-items: center;
 }
 
-.heading-12 {
+.practice_area_h2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -482,7 +485,7 @@
   align-items: center;
 }
 
-.image-6 {
+.practice_area_icon {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -492,7 +495,9 @@
   text-align: center;
 }
 
-.paragraph-7 {
+.practice_area_para {
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -892,6 +897,10 @@
 .heading-20 {
   display: block;
   text-align: center;
+}
+
+.slider-2 {
+  background-color: #fff;
 }
 
 @font-face {
