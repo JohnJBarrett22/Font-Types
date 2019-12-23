@@ -903,6 +903,18 @@
   background-color: #fff;
 }
 
+.heading-21 {
+  text-align: right;
+}
+
+.paragraph-12 {
+  text-align: right;
+}
+
+.paragraph-13 {
+  text-align: left;
+}
+
 @font-face {
   font-family: 'Fa solid 900';
   src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype');
