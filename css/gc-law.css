@@ -68,12 +68,12 @@
   display: inline;
 }
 
-.div-block {
+.intro {
   height: auto;
 }
 
 .slider {
-  height: 90vh;
+  height: 85vh;
 }
 
 .navbar {
@@ -349,6 +349,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .practice_areas {
@@ -365,6 +366,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .heading-9 {
@@ -548,10 +550,14 @@
 }
 
 .appointment_button {
-  display: inline;
+  position: static;
+  left: auto;
+  right: auto;
+  display: inline-block;
   width: auto;
   margin-right: auto;
   margin-left: auto;
+  float: none;
   background-color: #e4c960;
   text-align: left;
 }
@@ -626,7 +632,7 @@
 }
 
 .hr_block {
-  width: 25%;
+  width: 35%;
   margin: 5px auto;
   border: 1px solid #e4c960;
   text-align: left;
@@ -659,6 +665,7 @@
   display: block;
   width: 50%;
   padding: 15px;
+  text-align: center;
 }
 
 .form-block {
@@ -671,6 +678,7 @@
 .submit-button {
   float: none;
   background-color: #e4c960;
+  text-align: left;
 }
 
 .container-2 {
@@ -745,6 +753,7 @@
   padding: 15px;
   border: 1px none #000;
   background-color: #f9f9f9;
+  text-align: center;
 }
 
 .heading-17 {
@@ -754,7 +763,7 @@
 }
 
 .image-7 {
-  max-width: 65%;
+  max-width: 45%;
 }
 
 .header_c2a {
@@ -826,7 +835,7 @@
 }
 
 .header_name {
-  display: block;
+  display: inline-block;
   overflow: visible;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -933,6 +942,43 @@
   margin-right: auto;
   margin-left: auto;
   background-color: #e4c960;
+}
+
+.image-10 {
+  max-width: 75%;
+  text-align: left;
+}
+
+.paragraph-14 {
+  text-align: left;
+}
+
+.paragraph-15 {
+  text-align: left;
+}
+
+.paragraph-16 {
+  text-align: left;
+}
+
+.field-label {
+  text-align: left;
+}
+
+.field-label-2 {
+  text-align: left;
+}
+
+.field-label-3 {
+  text-align: left;
+}
+
+.field-label-4 {
+  text-align: left;
+}
+
+.form {
+  text-align: left;
 }
 
 @font-face {
