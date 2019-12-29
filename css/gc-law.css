@@ -22,6 +22,7 @@
 .footer_section {
   margin-top: 0px;
   padding-top: 0px;
+  background-color: #000;
 }
 
 ._4_block_row {
@@ -334,6 +335,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #fff;
 }
 
 .c2a_1_section {
@@ -719,16 +721,18 @@
 }
 
 .list-item-2 {
+  color: #fff;
   list-style-type: none;
 }
 
 .footer_icons {
   padding: 5px;
   font-family: 'Fa brands 400', sans-serif;
+  color: #fff;
   font-size: 18px;
 }
 
-.heading-15 {
+.section_heading {
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
@@ -913,7 +917,7 @@
   background-color: #e4c960;
 }
 
-.heading-20 {
+.sub_section_h2 {
   display: block;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -979,6 +983,27 @@
 
 .form {
   text-align: left;
+}
+
+.main_container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.ends_container {
+  max-width: 1350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-block {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
 }
 
 @font-face {
