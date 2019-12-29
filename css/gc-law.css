@@ -452,7 +452,7 @@
   display: block;
   width: 50%;
   padding: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .form-block {
@@ -768,6 +768,22 @@
 .about_page {
   width: 90%;
   margin: 50px auto;
+}
+
+.field-label-5 {
+  text-align: left;
+}
+
+.field-label-6 {
+  text-align: left;
+}
+
+.field-label-7 {
+  text-align: left;
+}
+
+.field-label-8 {
+  text-align: left;
 }
 
 @font-face {
