@@ -206,7 +206,10 @@
 }
 
 .legal_block {
-  padding-bottom: 0px;
+  padding: 5px 0px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
 }
 
 .heading-8 {
@@ -830,6 +833,13 @@
 
 .image-15 {
   max-width: 50%;
+}
+
+.text-block {
+  padding: 5px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
 }
 
 @font-face {
