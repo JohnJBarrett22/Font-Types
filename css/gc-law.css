@@ -451,11 +451,12 @@
 ._2_block {
   display: block;
   width: 50%;
-  padding: 15px;
+  padding: 0px 15px;
   text-align: left;
 }
 
 .form-block {
+  margin-bottom: 0px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -770,6 +771,11 @@
   margin: 50px auto;
 }
 
+.social_media_block {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .field-label-5 {
   text-align: left;
 }
@@ -784,6 +790,46 @@
 
 .field-label-8 {
   text-align: left;
+}
+
+.grid {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+.icon_block {
+  text-align: center;
+}
+
+.div-block-6 {
+  text-align: center;
+}
+
+.div-block-7 {
+  text-align: center;
+}
+
+.image-11 {
+  max-width: 50%;
+}
+
+.image-12 {
+  max-width: 50%;
+}
+
+.image-13 {
+  max-width: 50%;
+}
+
+.image-14 {
+  max-width: 50%;
+}
+
+.image-15 {
+  max-width: 50%;
 }
 
 @font-face {
