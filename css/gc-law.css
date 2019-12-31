@@ -458,6 +458,14 @@
   text-align: left;
 }
 
+._2_block.left_align {
+  text-align: left;
+}
+
+._2_block.right_align {
+  text-align: right;
+}
+
 .form-block {
   margin-bottom: 0px;
   -webkit-box-flex: 1;
@@ -666,6 +674,7 @@
 }
 
 .heading-21 {
+  margin-top: 0px;
   text-align: right;
 }
 
@@ -673,16 +682,20 @@
   text-align: right;
 }
 
-.paragraph-13 {
+.pa_para {
   text-align: left;
 }
 
+.pa_para.right_align {
+  text-align: right;
+}
+
 .info_button {
-  display: inline;
+  display: inline-block;
   width: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10px 0px;
   background-color: #e4c960;
+  text-align: left;
 }
 
 .image-10 {
@@ -840,6 +853,14 @@
   color: #fff;
   font-weight: 700;
   text-align: center;
+}
+
+.pa_page_h2 {
+  margin-top: 0px;
+}
+
+.heading-23 {
+  margin-top: 0px;
 }
 
 @font-face {
