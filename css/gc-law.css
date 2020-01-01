@@ -212,26 +212,6 @@
   text-align: center;
 }
 
-.heading-8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  padding-bottom: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #fff;
-}
-
 .c2a_1_section {
   background-color: transparent;
 }
@@ -656,10 +636,6 @@
   text-align: center;
 }
 
-.heading-19 {
-  text-align: center;
-}
-
 .sub_section_h2 {
   display: block;
   margin-top: 15px;
@@ -671,15 +647,6 @@
 .slider-2 {
   margin-bottom: 50px;
   background-color: #fff;
-}
-
-.heading-21 {
-  margin-top: 0px;
-  text-align: right;
-}
-
-.paragraph-12 {
-  text-align: right;
 }
 
 .pa_para {
@@ -696,6 +663,7 @@
   margin: 10px 0px;
   background-color: #e4c960;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .image-10 {
@@ -778,10 +746,6 @@
   align-items: center;
 }
 
-.paragraph-17 {
-  text-align: left;
-}
-
 .about_page {
   width: 90%;
   margin: 50px auto;
@@ -820,14 +784,6 @@
   text-align: center;
 }
 
-.div-block-6 {
-  text-align: center;
-}
-
-.div-block-7 {
-  text-align: center;
-}
-
 .image-11 {
   max-width: 50%;
 }
@@ -848,19 +804,67 @@
   max-width: 50%;
 }
 
-.text-block {
-  padding: 5px;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-}
-
 .pa_page_h2 {
   margin-top: 0px;
 }
 
-.heading-23 {
+.affiliation_row {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.affiliation_block {
+  text-align: center;
+}
+
+.image-16 {
+  text-align: left;
+}
+
+.image-17 {
   margin-top: 0px;
+}
+
+.image-18 {
+  margin-top: 0px;
+}
+
+#w-node-a2df80521e47-21cd276a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-986b8569ed46-21cd276a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-13afbf003e07-21cd276a {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-e8afcc7f0d25-21cd276a {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 @font-face {
