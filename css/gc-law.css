@@ -785,23 +785,23 @@
 }
 
 .image-11 {
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .image-12 {
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .image-13 {
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .image-14 {
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .image-15 {
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .pa_page_h2 {
@@ -816,6 +816,7 @@
 }
 
 .affiliation_block {
+  background-color: transparent;
   text-align: center;
 }
 
