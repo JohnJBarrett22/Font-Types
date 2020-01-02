@@ -435,7 +435,7 @@
   display: block;
   width: 50%;
   padding: 0px 15px;
-  text-align: left;
+  text-align: center;
 }
 
 ._2_block.left_align {
@@ -459,6 +459,7 @@
   background-color: #e4c960;
   font-weight: 700;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .list-item-2 {
@@ -830,6 +831,74 @@
 
 .image-18 {
   margin-top: 0px;
+}
+
+.bold-text {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bold-text-2 {
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  ._4_block {
+    width: 50%;
+  }
+  .about_h3 {
+    text-align: center;
+  }
+  .legal_block {
+    font-size: 12px;
+  }
+  .paragraph-5 {
+    margin-right: 75px;
+    margin-left: 75px;
+  }
+  ._3_block {
+    width: 50%;
+  }
+  .practice_area_h2 {
+    font-size: 32px;
+  }
+  .footer_link {
+    font-size: 12px;
+  }
+  ._2_block {
+    text-align: center;
+  }
+  .list-item-2 {
+    font-size: 12px;
+  }
+  .header_c2a {
+    font-size: 12px;
+  }
+  .header_description {
+    font-size: 14px;
+  }
+  .div-block-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+  .div-block-4 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .call_link {
+    font-size: 24px;
+  }
+  .header_name {
+    font-size: 25px;
+  }
+  .image-10 {
+    max-width: 100%;
+    text-align: left;
+  }
 }
 
 #w-node-a2df80521e47-21cd276a {
