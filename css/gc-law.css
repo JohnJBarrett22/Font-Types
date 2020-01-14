@@ -516,7 +516,7 @@
 }
 
 .image-7 {
-  max-width: 45%;
+  max-width: 20%;
 }
 
 .header_c2a {
@@ -713,7 +713,7 @@
 }
 
 .ends_container {
-  max-width: 1350px;
+  max-width: none;
   margin-right: auto;
   margin-left: auto;
 }
@@ -737,10 +737,10 @@
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
